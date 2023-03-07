@@ -1,0 +1,10 @@
+$color-letra:rgb(17, 17, 211);
+$color-principal:rgb(181, 179, 179);
+body{
+    background-color: $color-principal;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+    color: $color-letra;
+}
