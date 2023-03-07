@@ -5,6 +5,7 @@ $color-letras:blue;
 $color-prim:white;
 $color-seg:dark;
 $color-ter:yellow;
+$color-cuar:rgb(248, 93, 248);
 
 body{
     background-color:rgb(231, 214, 247);
@@ -24,6 +25,6 @@ p{
         }
     }
 
-    background-color: $color-ter;
-    color: black;
+    background-color: $color-cuar;
+    color:$color-prim;
 }

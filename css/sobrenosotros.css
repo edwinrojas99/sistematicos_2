@@ -13,8 +13,8 @@ p {
 }
 
 .navbar-red {
-  background-color: yellow;
-  color: black;
+  background-color: rgb(248, 93, 248);
+  color: white;
 }
 .navbar-red:hover .wrapper {
   -webkit-clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%);
