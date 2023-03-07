@@ -10,4 +10,27 @@ p {
   color: purple;
   text-decoration: none;
   padding: 2px;
+}
+
+head {
+  color: aquamarine;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+  color: white;
+}
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  color: dark;
 }/*# sourceMappingURL=sobrenosotros.css.map */

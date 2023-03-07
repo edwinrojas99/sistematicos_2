@@ -2,6 +2,8 @@
 // variables
 $color-principal:black;
 $color-letras:blue;
+$color-prim:white;
+$color-seg:dark;
 
 body{
     background-color:rgb(231, 214, 247);
@@ -13,4 +15,26 @@ p{
     color: purple;
     text-decoration:none;
     padding: 2px;
+}
+head{
+    color: aquamarine;
+}
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+    color:$color-prim;
+
+    .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        color: $color-seg;
+    }
 }
