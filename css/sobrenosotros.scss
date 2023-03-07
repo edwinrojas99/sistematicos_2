@@ -4,6 +4,7 @@ $color-principal:black;
 $color-letras:blue;
 $color-prim:white;
 $color-seg:dark;
+$color-ter:yellow;
 
 body{
     background-color:rgb(231, 214, 247);
@@ -15,4 +16,14 @@ p{
     color: purple;
     text-decoration:none;
     padding: 2px;
+}
+.navbar-red {
+    &:hover {
+        .wrapper {
+            clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%);
+        }
+    }
+
+    background-color: $color-ter;
+    color: $color-principal;
 }

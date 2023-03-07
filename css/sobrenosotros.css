@@ -10,4 +10,13 @@ p {
   color: purple;
   text-decoration: none;
   padding: 2px;
+}
+
+.navbar-red {
+  background-color: yellow;
+  color: black;
+}
+.navbar-red:hover .wrapper {
+  -webkit-clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%);
+          clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%);
 }/*# sourceMappingURL=sobrenosotros.css.map */
