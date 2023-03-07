@@ -264,6 +264,10 @@ section {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+  h6 {
+    font-size: 5px;
+    color: red;
+  }
 }
 @media (max-width: 880px) {
   .footer-distributed {
