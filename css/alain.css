@@ -1,5 +1,17 @@
 @import "https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap";
 @import "https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700";
+h6 {
+  font-size: 1rem;
+}
+
+.accordion {
+  border: 1px solid rgb(40, 40, 40);
+}
+
+.accordion-button {
+  border: none;
+}
+
 /* Footer left */
 /* The company logo */
 /* Footer links */
@@ -16,7 +28,7 @@
 
 .b-example-divider {
   height: 3rem;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(91, 255, 2, 0.1);
   border: solid rgba(0, 0, 0, 0.15);
   border-width: 1px 0;
   box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
@@ -94,7 +106,7 @@ body {
 }
 
 .navbar-red {
-  background-color: rgb(255, 51, 0);
+  background-color: #dc3545;
   color: #fff;
 }
 .navbar-red:hover .wrapper {
@@ -278,4 +290,4 @@ section {
     margin-bottom: 40px;
     text-align: center;
   }
-}/*# sourceMappingURL=estilosass.css.map */
+}/*# sourceMappingURL=alain.css.map */
