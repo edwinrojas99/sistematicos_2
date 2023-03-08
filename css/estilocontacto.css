@@ -10,13 +10,16 @@ p {
 
 @media (min-width: 768px) {
   h4 {
-    font-size: 5px;
+    font-size: 30px;
     color: green;
   }
 }
 @media (max-width: 880px) {
   h4 {
-    font-size: 5px;
+    font-size: 20px;
     color: red;
+  }
+  body {
+    background-color: rgb(39, 37, 37);
   }
 }/*# sourceMappingURL=estilocontacto.css.map */
