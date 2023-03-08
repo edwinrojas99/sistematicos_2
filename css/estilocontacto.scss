@@ -8,3 +8,20 @@ p{
     text-align: justify;
     color: $color-letra;
 }
+
+
+@media (min-width: 768px) { 
+    h4 {
+        font-size: 5px;
+        color: green;
+    }
+}
+
+@media (max-width: 880px) {
+
+    h4 {
+        font-size: 5px;
+        color: red;
+    }
+     
+}
