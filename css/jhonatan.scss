@@ -221,7 +221,15 @@ section {
         width: 20%;
     }
 
-    
+    h3 {
+        color: $color_2;
+        font: normal 36px 'Open Sans', cursive;
+        margin: 0;
+
+        span {
+            color: $color_3;
+        }
+    }
 
     .footer-links {
         color: $color_2;
@@ -332,23 +340,21 @@ section {
         }
     }
 }
-
-.container {
-    background-color: rgb(255, 250, 244);
+.container
+{
+  background-color: rgb(255, 250, 244);
 }
-
-main {
+main{
     background-color: #dbdbdb;
 }
-
-.card-body {
-    background-color: #cab8b8;
+.card-body
+{
+    background-color:#cab8b8;
 }
-
 @media (max-width: 500px) {
-    h3 {
-        font-size: 50px;
+    title {
+        font-size: 20px;
         color: $color_3;
     }
 
-}   
+}
