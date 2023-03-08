@@ -351,3 +351,11 @@ main{
 {
     background-color:#cab8b8;
 }
+@media (max-width: 500px) {
+    .h3
+    {
+        color: red;
+        font-size: 10px;
+
+    }
+}
