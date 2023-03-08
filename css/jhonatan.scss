@@ -340,19 +340,21 @@ section {
         }
     }
 }
-.container
-{
-  background-color: rgb(255, 250, 244);
+
+.container {
+    background-color: rgb(255, 250, 244);
 }
-main{
+
+main {
     background-color: #dbdbdb;
 }
-.card-body
-{
-    background-color:#cab8b8;
+
+.card-body {
+    background-color: #cab8b8;
 }
+
 @media (max-width: 500px) {
-    title {
+    h3 {
         font-size: 20px;
         color: $color_3;
     }
