@@ -1,5 +1,6 @@
 $color-letra:rgb(17, 17, 211);
 $color-principal:rgb(181, 179, 179);
+$color-secundario:rgb(39, 37, 37);
 body{
     background-color: $color-principal;
 }
@@ -12,7 +13,7 @@ p{
 
 @media (min-width: 768px) { 
     h4 {
-        font-size: 5px;
+        font-size: 30px;
         color: green;
     }
 }
@@ -20,8 +21,11 @@ p{
 @media (max-width: 880px) {
 
     h4 {
-        font-size: 5px;
+        font-size: 20px;
         color: red;
+    }
+    body{
+        background-color: $color-secundario;
     }
      
 }
