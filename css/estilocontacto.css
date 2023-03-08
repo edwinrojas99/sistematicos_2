@@ -6,4 +6,17 @@ p {
   font-size: 20px;
   text-align: justify;
   color: rgb(17, 17, 211);
+}
+
+@media (min-width: 768px) {
+  h4 {
+    font-size: 5px;
+    color: green;
+  }
+}
+@media (max-width: 880px) {
+  h4 {
+    font-size: 5px;
+    color: red;
+  }
 }/*# sourceMappingURL=estilocontacto.css.map */

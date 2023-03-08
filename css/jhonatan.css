@@ -304,8 +304,8 @@ main {
 }
 
 @media (max-width: 500px) {
-  .h3 {
-    color: red;
+  H3 {
     font-size: 20px;
+    color: lightseagreen;
   }
 }/*# sourceMappingURL=jhonatan.css.map */
