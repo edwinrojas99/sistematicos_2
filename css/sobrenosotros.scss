@@ -29,3 +29,18 @@ p{
     background-color: $color-cuar;
     color:$color-prim;
 }
+@media (min-width: 500px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 5px;
+        color:$color-letras;
+    }
+    p{
+        font-size: 5px;
+        color:$color-prim;
+
+    }
+}
