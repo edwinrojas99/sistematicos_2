@@ -264,10 +264,6 @@ section {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
-  h6 {
-    font-size: 5px;
-    color: red;
-  }
 }
 @media (max-width: 880px) {
   .footer-distributed {
@@ -293,5 +289,11 @@ section {
     width: 100%;
     margin-bottom: 40px;
     text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  h6 {
+    font-size: 20px;
+    color: blue;
   }
 }/*# sourceMappingURL=alain.css.map */
