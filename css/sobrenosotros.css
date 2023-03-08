@@ -19,4 +19,18 @@ p {
 .navbar-red:hover .wrapper {
   -webkit-clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%);
           clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%);
+}
+
+@media (min-width: 500px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+  h2 {
+    font-size: 5px;
+    color: blue;
+  }
+  p {
+    font-size: 5px;
+    color: white;
+  }
 }/*# sourceMappingURL=sobrenosotros.css.map */
