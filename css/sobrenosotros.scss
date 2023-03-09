@@ -15,7 +15,7 @@ h2{
     color: $color-principal;
 }
 p{
-    color: purple;
+    color:$color-principal;
     text-decoration:none;
     padding: 2px;
 }
@@ -35,7 +35,7 @@ p{
 }
 
 * {
-    font-family: $font-family_2;
+    font-family: Open Sans;;
 }
 @media (max-width: 500px) {
     .bd-placeholder-img-lg {
