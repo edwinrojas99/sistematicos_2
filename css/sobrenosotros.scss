@@ -9,7 +9,7 @@ $color-cuar:rgb(248, 93, 248);
 $color-a:red;
 
 body{
-    background-color:rgb(254, 252, 255);
+    background-color:$color-prim;
 }
 h2{
     color: $color-principal;
