@@ -61,7 +61,7 @@ p{
 }
 @media (max-width: 500px) {
     .bd-placeholder-img-lg {
-        font-size: 3.5rem;
+        font-size: 20px;
     }
 
     h2 {
@@ -75,13 +75,6 @@ p{
         font-family: $font-family1;
 
     }
-}
-
-@media (max-width: 500px) {
-    h6 {
-        font-size: 20px;
-    }
-
 }
 .footer{
     font-family: $font-family1; 
