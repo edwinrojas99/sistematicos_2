@@ -1,5 +1,9 @@
 @import "https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap";
 @import "https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700";
+button {
+  background: none;
+}
+
 h6 {
   font-size: 1rem;
 }
@@ -28,7 +32,7 @@ h6 {
 
 .b-example-divider {
   height: 3rem;
-  background-color: rgba(237, 139, 26, 0.1);
+  background-color: rgba(91, 255, 2, 0.1);
   border: solid rgba(0, 0, 0, 0.15);
   border-width: 1px 0;
   box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
@@ -51,6 +55,7 @@ h6 {
   height: 2.75rem;
   overflow-y: hidden;
 }
+
 .nav-scroller .nav {
   display: flex;
   flex-wrap: nowrap;
@@ -63,7 +68,7 @@ h6 {
 }
 
 body {
-  background-color: #eee;
+  background-color: #fff;
 }
 
 .navbar-nav > li > a {
@@ -91,7 +96,7 @@ body {
   height: 100%;
   background-color: #000;
   -webkit-clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 71% 100%);
-          clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 71% 100%);
+  clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 71% 100%);
   transition: 1s all;
 }
 
@@ -101,17 +106,19 @@ body {
   margin-bottom: 4px;
   font-size: 27px;
 }
+
 .navbar-brand:hover {
   color: #fff;
 }
 
 .navbar-red {
-  background-color: #f06f06;
+  background-color: red;
   color: #fff;
 }
+
 .navbar-red:hover .wrapper {
   -webkit-clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%);
-          clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%);
+  clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%);
 }
 
 .all-show {
@@ -142,16 +149,19 @@ section {
   font: bold 16px sans-serif;
   padding: 55px 50px;
 }
+
 .footer-distributed .footer-left {
   display: inline-block;
   vertical-align: top;
   width: 40%;
 }
+
 .footer-distributed .footer-center {
   display: inline-block;
   vertical-align: top;
   width: 35%;
 }
+
 .footer-distributed .footer-center i {
   background-color: #33383b;
   color: #ffffff;
@@ -164,10 +174,12 @@ section {
   margin: 10px 15px;
   vertical-align: middle;
 }
+
 .footer-distributed .footer-center i.fa-envelope {
   font-size: 17px;
   line-height: 38px;
 }
+
 .footer-distributed .footer-center p {
   display: inline-block;
   color: #ffffff;
@@ -175,34 +187,41 @@ section {
   vertical-align: middle;
   margin: 0;
 }
+
 .footer-distributed .footer-center p span {
   display: block;
   font-weight: normal;
   font-size: 14px;
   line-height: 2;
 }
+
 .footer-distributed .footer-center p a {
   color: lightseagreen;
   text-decoration: none;
 }
+
 .footer-distributed .footer-right {
   display: inline-block;
   vertical-align: top;
   width: 20%;
 }
+
 .footer-distributed h3 {
   color: #ffffff;
   font: normal 36px "Open Sans", cursive;
   margin: 0;
 }
+
 .footer-distributed h3 span {
   color: lightseagreen;
 }
+
 .footer-distributed .footer-links {
   color: #ffffff;
   margin: 20px 0 12px;
   padding: 0;
 }
+
 .footer-distributed .footer-links a {
   display: inline-block;
   line-height: 1.8;
@@ -210,6 +229,7 @@ section {
   text-decoration: none;
   color: inherit;
 }
+
 .footer-distributed .footer-links a:before {
   content: "|";
   font-weight: 300;
@@ -219,15 +239,18 @@ section {
   display: inline-block;
   padding-right: 5px;
 }
+
 .footer-distributed .footer-links .link-1:before {
   content: none;
 }
+
 .footer-distributed .footer-company-name {
   color: #222;
   font-size: 14px;
   font-weight: normal;
   margin: 0;
 }
+
 .footer-distributed .footer-company-about {
   line-height: 20px;
   color: #92999f;
@@ -235,6 +258,7 @@ section {
   font-weight: normal;
   margin: 0;
 }
+
 .footer-distributed .footer-company-about span {
   display: block;
   color: #ffffff;
@@ -242,9 +266,11 @@ section {
   font-weight: bold;
   margin-bottom: 20px;
 }
+
 .footer-distributed .footer-icons {
   margin-top: 25px;
 }
+
 .footer-distributed .footer-icons a {
   display: inline-block;
   width: 35px;
@@ -291,21 +317,13 @@ section {
     text-align: center;
   }
 }
-.container {
-  background-color: rgb(255, 250, 244);
-}
-
-main {
-  background-color: #dbdbdb;
-}
-
-.card-body {
-  background-color: #cab8b8;
+p {
+  line-height: 2;
 }
 
 @media (max-width: 500px) {
-  h5 {
+  .card-text {
     font-size: 20px;
-    color: lightseagreen;
+    color: red;
   }
-}/*# sourceMappingURL=jhonatan.css.map */
+} /*# sourceMappingURL=jhonatan.css.map */
