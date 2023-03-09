@@ -1,5 +1,9 @@
 @import "https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap";
 @import "https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700";
+button {
+  background: none;
+}
+
 h6 {
   font-size: 1rem;
 }
@@ -63,7 +67,7 @@ h6 {
 }
 
 body {
-  background-color: #eee;
+  background-color: #fff;
 }
 
 .navbar-nav > li > a {
@@ -106,7 +110,7 @@ body {
 }
 
 .navbar-red {
-  background-color: #dc3545;
+  background-color: red;
   color: #fff;
 }
 .navbar-red:hover .wrapper {
@@ -294,6 +298,5 @@ section {
 @media (max-width: 500px) {
   h6 {
     font-size: 20px;
-    color: lightseagreen;
   }
 }/*# sourceMappingURL=alain.css.map */
