@@ -20,6 +20,16 @@ p{
     padding: 2px;
 }
 //anidado
+.navbar-brand {
+    color: $color_1;
+    font-family: open sans;
+    margin-bottom: 4px;
+    font-size: 27px;
+
+    &:hover {
+        color: $color-prim;
+    }
+}
 .navbar-red {
     &:hover {
         .wrapper {
@@ -35,7 +45,7 @@ p{
 }
 
 * {
-    font-family: Open Sans;;
+    font-family: Open Sans;
 }
 @media (max-width: 500px) {
     .bd-placeholder-img-lg {
