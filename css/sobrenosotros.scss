@@ -10,7 +10,7 @@ $color-a:red;
 $font-family: Open Sans;
 
 body{
-    color:$color-prim;
+    background-color: $color-prim;
 }
 h2{
     color: $color-principal;
@@ -19,7 +19,7 @@ p{
     color:$color-principal;
     text-decoration:none;
     padding: 2px;
-    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:'Open Sans';
 }
 .navbar-nav {
     >li {
