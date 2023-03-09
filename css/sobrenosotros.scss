@@ -7,7 +7,7 @@ $color-seg:dark;
 $color-ter:yellow;
 $color-cuar:rgb(248, 93, 248);
 $color-a:red;
-$font-family: Open Sans;
+$font-family1: Open Sans;
 
 body{
     background-color: $color-prim;
@@ -57,7 +57,7 @@ p{
 }
 
 * {
-    font-family: 'Open Sans';
+    font-family: $font-family1;
 }
 @media (max-width: 500px) {
     .bd-placeholder-img-lg {
