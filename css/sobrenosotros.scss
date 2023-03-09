@@ -6,6 +6,7 @@ $color-prim:white;
 $color-seg:dark;
 $color-ter:yellow;
 $color-cuar:rgb(248, 93, 248);
+$color-a:red;
 
 body{
     background-color:rgb(231, 214, 247);
@@ -26,7 +27,7 @@ p{
         }
     }
 
-    background-color: $color-cuar;
+    background-color: $color-a;
     color:$color-prim;
 }
 @media (max-width: 500px) {
