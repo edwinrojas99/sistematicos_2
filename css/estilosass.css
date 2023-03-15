@@ -94,7 +94,7 @@ body {
 }
 
 .navbar-red {
-  background-color: rgb(248, 93, 248);
+  background-color: rgb(255, 0, 0);
   color: #fff;
 }
 .navbar-red:hover .wrapper {
